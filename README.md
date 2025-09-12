@@ -16,5 +16,5 @@ I maintain this repo to **track consistency, improve problem-solving skills, and
 
 🤝 Contributions
 
-This repo is mainly for my personal practice, but if you notice any mistakes, have better solutions or have
+If you notice any mistakes, have better solutions or have
 knowledge about any other programming language, feel free to open an issue or submit a pull request.
