@@ -1,5 +1,6 @@
 package Leetcode;
 
+// Time - O(n) and Space - O(26) -> O(1)
 public class Find_Most_Frequent_Vowel_and_Consonant_13092025 {
     public int maxFreqSum(String s) {
         int n = s.length();

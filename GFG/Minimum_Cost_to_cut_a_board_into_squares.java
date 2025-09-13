@@ -1,5 +1,7 @@
 package GFG;
 
+// Algo - Greedy
+// Time - n(logn)+m(logm), Space - O(1)
 public class Minimum_Cost_to_cut_a_board_into_squares {
     public static int minCost(int n, int m, int[] x, int[] y) {
         int result = 0;
