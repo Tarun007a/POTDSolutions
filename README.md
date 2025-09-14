@@ -9,7 +9,7 @@ I maintain this repo to **track consistency, improve problem-solving skills, and
 ## 🛠 Languages Used
 - Java  
 
-📅 Progress
+📅 Progress -
 My leetcode and GFG profile
 - [GeeksforGeeks](https://www.geeksforgeeks.org/user/taruncho6xdv/)
 - [LeetCode](https://leetcode.com/u/Tarunchourey007/)
@@ -21,6 +21,5 @@ My leetcode and GFG profile
 🔄 Keeping track of problem-solving streak
 
 🤝 Contributions
-
 If you notice any mistakes, have better solutions or have
 knowledge about any other programming language, feel free to open an issue or submit a pull request.
