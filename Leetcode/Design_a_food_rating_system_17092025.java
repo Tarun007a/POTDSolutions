@@ -4,6 +4,7 @@ so we mark the one which is changed i.e. we remove its food of i and put
 their empty string such that it can be recognised*/
 // time - change streak - o(logn), higest streak - total(n+m)log(n+m)
 // space - O(n+m)
+// leetcode - 2353
 class FoodRatings {
     public class Info{
         String food;
