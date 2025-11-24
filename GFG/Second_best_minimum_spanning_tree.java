@@ -1,6 +1,6 @@
 package GFG;
 
-// tc - O(E*log(E))
+// tc - O(E*log(E) + E * (E+V)
 public class Solution {
     static class DSU {
         int[] parent;
