@@ -1,5 +1,4 @@
 package GFG;
-
 // tc - O(n) sc - O(1)
 class Solution {
     public ArrayList<Integer> constructArr(int[] arr) {
@@ -16,15 +15,17 @@ class Solution {
             return result;
         }
 
+        // we got here sum of 0 and 1, 0 and 2 and 1 and 2 to find the 0th element
         int S01 = arr[0];
         int S02 = arr[1];
         int S12 = arr[n - 1];
 
+        // when we find the zeorth element then all are just substract by 0
         result.add((S01 + S02 - S12) / 2);
-        result.add(S01 - result.get(0));
-        result.add(S02 - result.get(0));
 
-        for (int i = 3; i < n; i++) {
+        // we traverse till n only and till n all values are 0th + val, so just remove
+        // the 0th values
+        for (int i = 1; i < n; i++) {
             result.add(arr[i - 1] - result.get(0));
         }
 
