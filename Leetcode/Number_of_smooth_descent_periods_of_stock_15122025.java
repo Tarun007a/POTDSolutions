@@ -2,8 +2,11 @@ package Leetcode;
 
 // leetcode 2110
 // tc - O(n), sc - O(1)
+
+
 class Solution {
     public long getDescentPeriods(int[] prices) {
+        
         int n = prices.length;
         long result = 0;
         int st = 0;
