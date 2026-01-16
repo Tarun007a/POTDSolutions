@@ -1,0 +1,48 @@
+package Leetcode;
+
+// leetcode - 2975
+// tc - O(n*n + m*m), sc - O(n*n)
+class Solution {
+    public int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
+        int mod = 1000000007;
+        List<Integer> hList = new ArrayList<>();
+        List<Integer> vList = new ArrayList<>();
+
+        for (int x : hFences) hList.add(x);
+        for (int x : vFences) vList.add(x);
+
+        hList.add(1);
+        hList.add(m);
+        vList.add(1);
+        vList.add(n);
+
+        Collections.sort(hList);
+        Collections.sort(vList);
+
+        Set<Integer> widths = new HashSet<>();
+
+        // all vertical widths
+        for (int i = 0; i < vList.size(); i++) {
+            for (int j = i + 1; j < vList.size(); j++) {
+                widths.add(vList.get(j) - vList.get(i));
+            }
+        }
+
+        int maxSide = 0;
+
+        // check horizontal heights
+        for (int i = 0; i < hList.size(); i++) {
+            for (int j = 0; j < hList.size(); j++) {
+                int height = hList.get(j) - hList.get(i);
+                if (widths.contains(height)) {
+                    maxSide = Math.max(maxSide, height);
+                }
+            }
+        }
+
+        if (maxSide == 0) return -1;
+
+        long area = (long) maxSide * maxSide;
+        return (int) (area % mod);
+    }
+}
