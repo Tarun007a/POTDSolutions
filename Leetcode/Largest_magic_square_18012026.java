@@ -1,7 +1,7 @@
 package Leetcode;
 
 // leetcode - 1895
-// tc - O(min(n,m) * n*m*(n+m)), sc - O(n*m)
+// tc - O(min(n,m) * n*m*k), sc - O(n*m)
 class Solution {
     private boolean isMagic(int row, int col, int k, int[][] rowSum, int[][] colSum, int[][] grid){
         int reqSum = rowSum[row][col+k-1];
