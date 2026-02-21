@@ -1,6 +1,7 @@
 package GFG;
 
 // tc - O(nlogn), sc - O(1)
+// binary search on answer
 class Solution {
     private boolean isPossible(int h, int[] citations){
         int count = 0;
@@ -21,6 +22,26 @@ class Solution {
                 lo = mid+1;
             }
             else hi = mid-1;
+        }
+        return result;
+    }
+}
+
+// tc - O(n), sc - O(n)
+class Solution {
+    public int hIndex(int[] citations) {
+        int n = citations.length;
+        int max = Arrays.stream(citations).max().getAsInt();
+        int result = 0;
+
+        int[] freq = new int[max+1];
+
+        for(int citation : citations) freq[citation]++;
+
+        for(int i = max-1; i >= 0; i--) freq[i] += freq[i+1];
+
+        for(int i = 0; i <= max; i++){
+            if(freq[i] >= i) result = i;
         }
         return result;
     }
