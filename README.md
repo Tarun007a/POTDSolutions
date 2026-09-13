@@ -11,8 +11,8 @@ I maintain this repo to **track consistency, improve problem-solving skills, and
 
 📅 Progress -
 My leetcode and GFG profile
-- [GeeksforGeeks](https://www.geeksforgeeks.org/user/taruncho6xdv/)
-- [LeetCode](https://leetcode.com/u/Tarunchourey007/)
+- https://leetcode.com/u/Tarunchourey007/
+- https://www.geeksforgeeks.org/user/taruncho6xdv/
 - Leetcode knight
 - Current streak 1000+ days
 - Solved over 1450+ problems on leetcode and rating - 2023(max)
