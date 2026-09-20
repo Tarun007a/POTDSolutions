@@ -1,4 +1,4 @@
-package Leetcodecontest.Weekly515;
+package Leetcodecontest.weekly515;
 
 class Solution {
     public int maximumGap(String skill, String station) {
