@@ -1,4 +1,4 @@
-package Leetcodecontest.weekly512;
+package Leetcodecontest.weekly521;
 
 // done after the contest completed
 class Solution {

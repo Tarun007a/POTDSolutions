@@ -1,4 +1,4 @@
-package Leetcodecontest.weekly512;
+package Leetcodecontest.weekly521;
 
 class Solution {
     class Pair {
