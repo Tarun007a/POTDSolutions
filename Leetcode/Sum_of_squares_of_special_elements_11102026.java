@@ -1,0 +1,15 @@
+package Leetcode;
+
+// leetcode - 2778
+// tc - O(n), sc - O(1)
+class Solution {
+    public int sumOfSquares(int[] nums) {
+        int n = nums.length;
+        int result = 0;
+
+        for(int i = 0; i < n; i++) {
+            if(n%(i+1) == 0) result += nums[i] * nums[i];
+        }
+        return result;
+    }
+}
