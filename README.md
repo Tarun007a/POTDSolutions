@@ -15,7 +15,7 @@ My leetcode and GFG profile
 - [LeetCode](https://leetcode.com/u/Tarunchourey007/)
 - Leetcode knight
 - Current streak 1000+ days
-- Solved over 1450+ problems on leetcode and rating - 2023(max)
+- Solved over 1500+ problems on leetcode and rating - 2023(max)
 
 
 ✅ Updated daily with new solutions
